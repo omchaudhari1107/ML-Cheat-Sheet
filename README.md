@@ -1,7 +1,7 @@
 # Machine Learning 
 
 ## Matplotlib
-- how to import it and plot a graph for Scattering and Ploting : 
+- how to import it and plot a graph for Scattering and Plotting : 
 
 - for more [visit](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.scatter.html)
 
@@ -21,14 +21,32 @@
 
     X_train,X_test,Y_train,Y_test = train_test_split(x,y,test_size=0.2,random_state=42)
     ```
+## Dummy Variable's 
 
-## Linear LinearRegression
+- How do we get the dummy variables for a specific feed feature.
+
+- There are two ways __One hot encoding__ & __pandas.get_dummies()__.
+
+- How to get a dummy for **Car** Model__.
+    <p align="center">
+        <img src='./dv1.png'/>
+    </p>
+
+    ```
+    dummy = pd.get_dummies(df['Car Model'],dtype=int)
+    ```
+    <p align="center">
+        <img src='./dv2.png'/>
+    </p>
+
+<a href='https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html'><h1 align='center'>Linear Regression</h1></a>
+
 - how to import Algorithm
 
     ```
     from sklearn.linear_model import LinearRegression
     ```
-- how use it ?
+- how use it?
     ```
     model = LinearRegression()
 
@@ -43,16 +61,15 @@
     model.predict(value of x)
     ```
 - Example :
+    <p align="center">
+        <img src='./Screenshot 2024-04-22 204712.png'/>
+    </p>
 
-    ![image LR](<Screenshot 2024-04-22 204712.png>)
+<a href='https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html'><h1 align='center'>Mutivarite Regression</h1></a>
 
-
-
-
-## Mutivarite Regression
 - Same as Linear  LinearRegression() but here the feed feature(X-axis) is multiple.
 
-- how use it ?
+- how use it?
     ```
     model = Linearmodelression()
 
@@ -64,8 +81,7 @@
 
     c = model.intercept_
     ```
-
-## Gradient Decendent
+<a href='#'><h1 align='center'>Gradient Decendent</h1></a>
 
 - Gradient descent is an optimization algorithm that is commonly used in machine learning and neural networks. It is used to find the values of a function's parameters that minimize a cost function.
 
@@ -79,7 +95,10 @@
 
     plt.plot(x,model.predict(x))
     ```
-    ![gd1 img](gd1.png)
+    <p align="center">
+        <img src='./gd1.png'/>
+    </p>
+    
     
 - __Best fit by Gradient Decendent Algoritham.__
 
@@ -115,9 +134,13 @@
 
     m,b = gradient_descent(x_normalized,y_normalized,iter=10000,lr=0.001) # lr = learning Rate
     ```
-    ![gd2 img](gd2.png)
-    ![gd3](gd3.png)
-
+    <p align="center">
+        <img src='./gd2.png'/>
+    </p>
+    <p align="center">
+        <img src='./gd3.png'/>
+    </p>
+    
 ## Saving The Model
 
 - we can use __Pickle__ and __Joblib__ but joblib is easy to implement.
@@ -132,21 +155,6 @@
     model = load('dumping_name')
     ```
 
-## Dummy Variable's 
-
-- how do we get the dummy variables for a specific feed feature.
-
-- There are two ways __One hot encoding__ & __pandas.get_dummies()__.
-
-- How to get dummy for __Car Model__.
-
-    ![dv](dv1.png)
-
-    ```
-    dummy = pd.get_dummies(df['Car Model'],dtype=int)
-    ```
-
-    ![Alt text](dv2.png)
 
 ## Logistic Regression
 
@@ -238,8 +246,9 @@
     - __High Regularization(C) lead to overfitting.__
     - __Low Regularization(C) lead to Underfitting.__
 
-        ![Alt text](svm3.png)
-
+        <p align="center">
+            <img src='./svm3.png'/>
+        </p>
 
 ## [Decision Tree Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
 - A decision tree is a type of supervised machine learning algorithm that uses a flowchart to make predictions and decisions based on a data set.
