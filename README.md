@@ -1,9 +1,8 @@
 # Machine Learning 
+<a href='https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.scatter.html'><h1 align='center'>Matplotlib</h1></a>
 
-## Matplotlib
 - how to import it and plot a graph for Scattering and Plotting : 
 
-- for more [visit](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.scatter.html)
 
     ```
     import matplotlib.pyplot as plt
@@ -12,8 +11,9 @@
 
     plt.plot(x,y,c='r')
     ```
+&nbsp;
+<a href='https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html'><h1 align='center'>train_test_split</h1></a>
 
-## train_test_split
 - how to import it and use it : 
 
     ```
@@ -21,7 +21,23 @@
 
     X_train,X_test,Y_train,Y_test = train_test_split(x,y,test_size=0.2,random_state=42)
     ```
-## Dummy Variable's 
+
+&nbsp;
+<a href='#'><h1 align='center'>Saving The Model</h1></a>
+
+- we can use __Pickle__ and __Joblib__ but joblib is easy to implement.
+
+    ```
+    from joblib import dump, load 
+    ```
+- Saving and Loading: 
+    ```
+    dump(model,'dumping_name')
+
+    model = load('dumping_name')
+    ```
+&nbsp;
+<a href='https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html'><h1 align='center'>Dummy Variable's</h1></a>
 
 - How do we get the dummy variables for a specific feed feature.
 
@@ -38,7 +54,7 @@
     <p align="center">
         <img src='./dv2.png'/>
     </p>
-
+&nbsp;
 <a href='https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html'><h1 align='center'>Linear Regression</h1></a>
 
 - how to import Algorithm
@@ -64,7 +80,7 @@
     <p align="center">
         <img src='./Screenshot 2024-04-22 204712.png'/>
     </p>
-
+&nbsp;
 <a href='https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html'><h1 align='center'>Mutivarite Regression</h1></a>
 
 - Same as Linear  LinearRegression() but here the feed feature(X-axis) is multiple.
@@ -81,7 +97,8 @@
 
     c = model.intercept_
     ```
-<a href='#'><h1 align='center'>Gradient Decendent</h1></a>
+&nbsp;
+<a href='https://www.javatpoint.com/gradient-descent-in-machine-learning'><h1 align='center'>Gradient Decendent</h1></a>
 
 - Gradient descent is an optimization algorithm that is commonly used in machine learning and neural networks. It is used to find the values of a function's parameters that minimize a cost function.
 
@@ -140,23 +157,8 @@
     <p align="center">
         <img src='./gd3.png'/>
     </p>
-    
-## Saving The Model
-
-- we can use __Pickle__ and __Joblib__ but joblib is easy to implement.
-
-    ```
-    from joblib import dump, load 
-    ```
-- Saving and Loading: 
-    ```
-    dump(model,'dumping_name')
-
-    model = load('dumping_name')
-    ```
-
-
-## Logistic Regression
+&nbsp;
+<a href='https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html'><h1 align='center'>Logistic Regression</h1></a>
 
 - How to import __Logistic Regression__ Algorithm.
 
@@ -199,8 +201,9 @@
 
     default=’lbfgs’
     ```
+&nbsp;
+<a href='https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html'><h1 align='center'>Multiclass Logistic Regression</h1></a>
 
-## Multiclass Logistic Regression
 - it is as simillar as above, the difference is of  X-axis as it have multiple features insted of single.
 
     ```
@@ -208,7 +211,8 @@
 
     y = df['target']
     ```
-## [Support Vector Machine (SVM)](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)
+&nbsp;
+<a href='https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html'><h1 align='center'>Support Vector Machine (SVM)</h1></a>
 
 - Support Vector Machine (SVM) is a type of algorithm that draws the best possible line between different groups of data points to classify them accurately.
 
@@ -249,8 +253,9 @@
         <p align="center">
             <img src='./svm3.png'/>
         </p>
+&nbsp;
+<a href='https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html'><h1 align='center'>Decision Tree Classifier</h1></a>
 
-## [Decision Tree Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
 - A decision tree is a type of supervised machine learning algorithm that uses a flowchart to make predictions and decisions based on a data set.
 - how to import it ;
 
@@ -302,6 +307,7 @@
     _ = plot_tree(model,feature_names,class_names,filled=True)
     ```
     ![dt1](dt1.png)
-
-## Random Forest 
+    
+&nbsp;
+<a href='https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html'><h1 align='center'>Random Forest</h1></a>
 
