@@ -254,6 +254,32 @@
             <img src='./svm3.png'/>
         </p>
 &nbsp;
+<h1 align='center'>Decision Tree Regressor</h1>
+
+- A decision tree regressor is a machine learning algorithm that uses a tree-like model to predict target values for continuous variables. The algorithm works by splitting nodes into sub-nodes until it reaches a leaf node that contains the prediction.
+
+- __It is the best Algorithm among Regression.__
+- How to import it ;
+
+    ```
+    from sklearn.tree import DecisionTreeRegressor
+    ```
+
+- How to use it ;
+    ```
+    model = DecisionTreeRegressor( )
+
+    model.fit(x,y)
+    ```
+
+- criterion in DecisionTreeRegressor( )
+    ```
+    criterion = {“squared_error”, “friedman_mse”, “absolute_error”, “poisson”} 
+    
+    default = “squared_error”
+    ```
+    ![Alt text](dtr1.png)
+&nbsp;
 <a href='https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html'><h1 align='center'>Decision Tree Classifier</h1></a>
 
 - A decision tree is a type of supervised machine learning algorithm that uses a flowchart to make predictions and decisions based on a data set.
@@ -307,7 +333,8 @@
     _ = plot_tree(model,feature_names,class_names,filled=True)
     ```
     ![dt1](dt1.png)
-    
+
+
 &nbsp;
 <a href='https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html'><h1 align='center'>Random Forest</h1></a>
 
