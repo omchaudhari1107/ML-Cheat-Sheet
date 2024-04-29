@@ -1,5 +1,5 @@
 # Machine Learning 
-<a href='https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.scatter.html'><h1 align='center'>Matplotlib</h1></a>
+<h1 align='center'>Matplotlib</h1>
 
 - how to import it and plot a graph for Scattering and Plotting : 
 
@@ -11,8 +11,10 @@
 
     plt.plot(x,y,c='r')
     ```
+- for more [click me👆](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.scatter.html)
+
 &nbsp;
-<a href='https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html'><h1 align='center'>train_test_split</h1></a>
+<h1 align='center'>train_test_split</h1>
 
 - how to import it and use it : 
 
@@ -21,9 +23,10 @@
 
     X_train,X_test,Y_train,Y_test = train_test_split(x,y,test_size=0.2,random_state=42)
     ```
+- for more [click me👆](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html)
 
 &nbsp;
-<a href='#'><h1 align='center'>Saving The Model</h1></a>
+<h1 align='center'>Saving The Model</h1>
 
 - we can use __Pickle__ and __Joblib__ but joblib is easy to implement.
 
@@ -37,7 +40,7 @@
     model = load('dumping_name')
     ```
 &nbsp;
-<a href='https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html'><h1 align='center'>Dummy Variable's</h1></a>
+<h1 align='center'>Dummy Variable's</h1>
 
 - How do we get the dummy variables for a specific feed feature.
 
@@ -54,8 +57,9 @@
     <p align="center">
         <img src='./dv2.png'/>
     </p>
+
 &nbsp;
-<a href='https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html'><h1 align='center'>Linear Regression</h1></a>
+<h1 align='center'>Linear Regression</h1>
 
 - how to import Algorithm
 
@@ -80,8 +84,10 @@
     <p align="center">
         <img src='./Screenshot 2024-04-22 204712.png'/>
     </p>
+- for more [click me👆](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)
+
 &nbsp;
-<a href='https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html'><h1 align='center'>Mutivarite Regression</h1></a>
+<h1 align='center'>Mutivarite Regression</h1>
 
 - Same as Linear  LinearRegression() but here the feed feature(X-axis) is multiple.
 
@@ -97,8 +103,10 @@
 
     c = model.intercept_
     ```
+- for more [click me👆](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)
+
 &nbsp;
-<a href='https://www.javatpoint.com/gradient-descent-in-machine-learning'><h1 align='center'>Gradient Decendent</h1></a>
+<h1 align='center'>Gradient Decendent</h1>
 
 - Gradient descent is an optimization algorithm that is commonly used in machine learning and neural networks. It is used to find the values of a function's parameters that minimize a cost function.
 
@@ -157,8 +165,10 @@
     <p align="center">
         <img src='./gd3.png'/>
     </p>
+- for more [click me👆](https://www.javatpoint.com/gradient-descent-in-machine-learning)
+
 &nbsp;
-<a href='https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html'><h1 align='center'>Logistic Regression</h1></a>
+<h1 align='center'>Logistic Regression</h1>
 
 - How to import __Logistic Regression__ Algorithm.
 
@@ -201,8 +211,10 @@
 
     default=’lbfgs’
     ```
+- for more [click me👆](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
+
 &nbsp;
-<a href='https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html'><h1 align='center'>Multiclass Logistic Regression</h1></a>
+<h1 align='center'>Multiclass Logistic Regression</h1>
 
 - it is as simillar as above, the difference is of  X-axis as it have multiple features insted of single.
 
@@ -211,8 +223,10 @@
 
     y = df['target']
     ```
+- for more [click me👆](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
+
 &nbsp;
-<a href='https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html'><h1 align='center'>Support Vector Machine (SVM)</h1></a>
+<h1 align='center'>Support Vector Machine (SVM)</h1>
 
 - Support Vector Machine (SVM) is a type of algorithm that draws the best possible line between different groups of data points to classify them accurately.
 
@@ -253,6 +267,8 @@
         <p align="center">
             <img src='./svm3.png'/>
         </p>
+- for more [click me👆](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)
+
 &nbsp;
 <h1 align='center'>Decision Tree Regressor</h1>
 
@@ -279,8 +295,11 @@
     default = “squared_error”
     ```
     ![Alt text](dtr1.png)
+
+- for more [click me👆](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html)
+
 &nbsp;
-<a href='https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html'><h1 align='center'>Decision Tree Classifier</h1></a>
+<h1 align='center'>Decision Tree Classifier</h1>
 
 - A decision tree is a type of supervised machine learning algorithm that uses a flowchart to make predictions and decisions based on a data set.
 - how to import it ;
@@ -334,7 +353,37 @@
     ```
     ![dt1](dt1.png)
 
+- for more [click me👆](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
+
 
 &nbsp;
-<a href='https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html'><h1 align='center'>Random Forest</h1></a>
+<h1 align='center'>Random Forest Classifier</h1>
 
+- A random forest classifier is a type of ensemble learning method that creates multiple decision trees to classify an input vector.
+
+    ![Alt text](rf1.png)
+
+- How to import it ;
+    ```
+    from sklearn.ensemble import RandomForestClassifier
+    ```
+- How to use it ;
+    ```
+    model = RandomForestClassifier()
+
+    model.fit(x_train,y_train)
+    ```
+- __n_estimators__ is use to select variable amount of trees in forest (The number of trees in the forest).
+    ```
+    model = RandomForestClassifier(n_estimators=10)
+
+    n_estimators default : 100
+    ```
+- __criterion__ also use for checking the impurities of the decision tree inside of Random Forest, and the lowest of all impurities will considered as root node for Decision tree. 
+    ```
+    criterion = {“gini”, “entropy”, “log_loss”} 
+    
+    default=“gini”
+- __More accurate predictions require more trees, resulting in slower models.__
+
+- for more [click me👆](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
