@@ -387,3 +387,8 @@
 - __More accurate predictions require more trees, resulting in slower models.__
 
 - for more [click me👆](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
+
+
+
+&nbsp;
+<h1 align='center'>KNN</h1>
