@@ -413,7 +413,7 @@
 
     model = KNeighborsClassifier(n_neighbors=10)
     ```
-- Hence the value of k
+- __A small value of k could lead to overfitting as well as a big value of k can lead to underfitting.__
 - ex :
 
     ![knn1](knn1.png)
@@ -421,5 +421,8 @@
     ![knn 2](knn2.png)
     
     ![knn 3](knn3.png)
+
+<h1 align='center'>KNN</h1>
+- [sklearn.neighbors.NearestNeighbors](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.NearestNeighbors.html)
 
 
