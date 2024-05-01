@@ -405,7 +405,7 @@
 
     model.fit(X_train,y_train)
     ```
-- __n_neighbors__ are number of neighbors to use by default for kneighbors queries, means the closest number of neighbour's an newly datapoint have.(closest number of neighbour is being calculated by Euclidean distance function) 
+- __n_neighbors__ are number of neighbors to use by default for kneighbors queries, means the closest number of neighbour's an newly datapoint have.__(closest number of neighbour is being calculated by Euclidean distance function).__
     ```
     n_neighbors = n, n=INTEGER 
     
@@ -422,7 +422,8 @@
     
     ![knn 3](knn3.png)
 
-<h1 align='center'>KNN</h1>
-- [sklearn.neighbors.NearestNeighbors](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.NearestNeighbors.html)
+<h1 align='center'>newly algos yet to put in CS</h1>
+
+- [sklearn.neighbors.NearestNeighbors - Unsupervised Learning](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.NearestNeighbors.html)
 
 
