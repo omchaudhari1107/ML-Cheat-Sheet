@@ -422,8 +422,13 @@
     
     ![knn 3](knn3.png)
 <h1 align='center'>Naïve Bayes</h1>
+
+- Naive Bayes is a probabilistic
+ machine learning
+ model that's used to solve classification problems. It's a linear classifier that's based on Bayes' Theorem
+ and assumes that features are independent
+ of each other, given the target class.
+
 <h1 align='center'>newly algos yet to put in CS</h1>
 
 - [sklearn.neighbors.NearestNeighbors - Unsupervised Learning](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.NearestNeighbors.html)
-
-
