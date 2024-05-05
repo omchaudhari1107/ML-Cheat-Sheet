@@ -421,7 +421,7 @@
     ![knn 2](knn2.png)
     
     ![knn 3](knn3.png)
-
+<h1 align='center'>Naïve Bayes</h1>
 <h1 align='center'>newly algos yet to put in CS</h1>
 
 - [sklearn.neighbors.NearestNeighbors - Unsupervised Learning](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.NearestNeighbors.html)
