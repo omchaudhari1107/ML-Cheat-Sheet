@@ -1,4 +1,4 @@
-# Machine Learning 
+<!-- # Machine Learning  -->
 <h1 align='center'>Matplotlib</h1>
 
 - how to import it and plot a graph for Scattering and Plotting : 
