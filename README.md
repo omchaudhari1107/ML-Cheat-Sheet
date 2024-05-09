@@ -421,6 +421,8 @@
     ![knn 2](knn2.png)
     
     ![knn 3](knn3.png)
+
+&nbsp;
 <h1 align='center'>Naïve Bayes</h1>
 
 - Naive Bayes is a probabilistic
