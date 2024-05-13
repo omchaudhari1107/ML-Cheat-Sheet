@@ -423,12 +423,49 @@
     ![knn 3](knn3.png)
 <h1 align='center'>Naïve Bayes</h1>
 
-- Naive Bayes is a probabilistic
- machine learning
- model that's used to solve classification problems. It's a linear classifier that's based on Bayes' Theorem
- and assumes that features are independent
- of each other, given the target class.
+- Naive Bayes is a probabilistic machine learning model that's used to solve classification problems. It's a linear classifier that's based on Bayes' Theorem and assumes that features are independent of each other, given the target class.'
 
+    > Considered all the features as to independent of eachother.
+
+    ![Alt text](nvb1.jpg)
+<!-- ![Alt text](nb3.webp) -->
+<p align="center">
+    <img src='./nb3.webp'/>
+</p>
+
+
+
+- Mainly Navie Base Algorithm contains three type of algorithms such as ;
+
+    ![Alt text](nvb2.png)
+
+- __Gaussian Naive Bayes__ : For Normal distribution such as iris data.
+    ```
+    from sklearn.naive_bayes import GaussianNB
+
+    model = GaussianNB()
+
+    model.fit(x_train,y_train)
+
+    # To get the prob..
+    model.predict_proba(x_test)
+    ```
+
+- __Multinomial Naive Bayes__: For Discrete dataset such as mail spam detection.
+
+    ```
+    from sklearn.naive_bayes import MultinomialNB
+
+    model = MultinomialNB()
+
+    model.fit()
+
+    model.predict_proba(x_test)
+    ```
+- __Bernoulli Naive Bayes__: For a Binary classification .
+    ```
+    from sklearn.naive_bayes import 
+    ```
 <h1 align='center'>newly algos yet to put in CS</h1>
 
 - [sklearn.neighbors.NearestNeighbors - Unsupervised Learning](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.NearestNeighbors.html)
