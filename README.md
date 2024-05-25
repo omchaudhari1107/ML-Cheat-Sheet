@@ -431,6 +431,6 @@
  and assumes that features are independent
  of each other, given the target class.
 
-<!-- <h1 align='center'>newly algos yet to put in CS</h1> -->
+<h1 align='center'>newly algos yet to put in CS</h1>
 
 - [sklearn.neighbors.NearestNeighbors - Unsupervised Learning](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.NearestNeighbors.html)
